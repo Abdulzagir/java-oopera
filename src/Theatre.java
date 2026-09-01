@@ -4,7 +4,7 @@ public class Theatre {
 
     public static void main(String[] args) {
 
-        Actor actor1 = new Actor("Иван", "Максимов", Gender.MALE, 180);
+        Actor actor1 = new Actor("Иван", "Максимов",Gender.MALE, 180);
         Actor actor2 = new Actor("Валерий", "Сюткин", Gender.MALE, 175);
         Actor actor3 = new Actor("Леонардо", "Уллубиев", Gender.MALE, 170);
 

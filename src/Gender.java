@@ -2,14 +2,14 @@ public enum Gender {
     MALE("Мужчина"),
     FEMALE("Женщина");
 
-    private String name;
+    private String gender;
 
-    Gender(String name) {
-        this.name = name;
+    Gender(String gender) {
+        this.gender = gender;
     }
     @Override
     public String toString() {
-        return name;
+        return gender;
     }
 }
 
